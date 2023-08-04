@@ -4,7 +4,6 @@ import Image from "next/image";
 import { Suspense } from "react";
 import Link from "next/link";
 import Services from "./components/Services";
-import Clients from "./components/Clients";
 import Hero from "./components/Hero";
 import { clients } from "./constants";
 
@@ -21,7 +20,6 @@ export default function Home() {
         {/* <Services /> */}
 
         {/* Clients Section */}
-        <Clients />
 
         {/* CTA Section */}
         <Suspense fallback="loading ...">
